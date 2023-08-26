@@ -1,5 +1,9 @@
 # LaraQuasar
 
+<p align="center">
+    <img src="https://github.com/mohamad-supangat/laraquasar/assets/48933993/12f8c831-56c0-42f2-825c-1a23e72e1b6e" alt="Welcome Screen" width="500" />
+</p>
+
 A Laravel + Quasar Vue Framework as main frontend, using inertia.js and vite as the main foundation
 
 Laraquasar is a Laravel template that use Quasar Framework and utilities for your Laravel project. With Laraquasar, you can quickly and easily integrate Quasar components into your Laravel.
