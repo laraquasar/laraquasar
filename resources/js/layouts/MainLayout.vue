@@ -42,9 +42,15 @@ import EssentialLink from "../components/EssentialLink.vue";
 const linksList = [
     {
         title: "Github",
-        caption: "github.com/mohamad-supangat",
+        caption: "https://github.com/laraquasar",
         icon: "code",
-        link: "https://github.com/mohamad-supangat",
+        link: "https://github.com/laraquasar",
+    },
+    {
+        title: "Packagist",
+        caption: "https://packagist.org/packages/laraquasar/laraquasar",
+        icon: "code",
+        link: "https://packagist.org/packages/laraquasar/laraquasar",
     },
     {
         title: "Docs Quasar",
