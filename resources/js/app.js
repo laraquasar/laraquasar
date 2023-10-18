@@ -1,6 +1,6 @@
 import "@quasar/extras/material-icons/material-icons.css";
 import "@quasar/extras/mdi-v6/mdi-v6.css";
-import "quasar/dist/quasar.css";
+import "quasar/src/css/index.sass";
 
 import { createInertiaApp } from "@inertiajs/vue3";
 import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers";
@@ -21,11 +21,7 @@ createInertiaApp({
             .use(Quasar, {
                 plugins: {}, // import Quasar plugins and add here
                 iconSet: quasarIconSet,
-                config: {
-                    brand: {
-                        primary: "#F73931",
-                    },
-                },
+                config: {}, // quasar config see: https://quasar.dev/start/vite-plugin/
             })
             .mount(el);
     },
