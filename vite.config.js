@@ -16,6 +16,7 @@ export default defineConfig({
         svgLoader(),
         quasar({
             autoImportComponentCase: "combined",
+            sassVariables: "resources/css/quasar-variables.sass",
         }),
     ],
 });
